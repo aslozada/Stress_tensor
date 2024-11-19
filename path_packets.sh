@@ -203,7 +203,7 @@ call_multiwfn() {
      echo "Warning: Poincare-Hopf relationship is not satisified."
   fi
 
-  ./Multiwfn $waveFunction -silent < data_b.txt > tmp0
+  Multiwfn $waveFunction -silent < data_b.txt > tmp0
   
   echo ""
   echo "-------------------------------------"
@@ -212,7 +212,7 @@ call_multiwfn() {
   
 
   get_points
-  ./Multiwfn $waveFunction -silent < coor.txt > tmp1
+  Multiwfn $waveFunction -silent < coor.txt > tmp1
 
   get_packets
 
