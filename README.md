@@ -7,8 +7,11 @@ The bash script path-packets.sh uses Multiwfn version 3.8 (dev) Update [2024-Nov
 
 ```
 cd Multiwfn
-patch < patch_packtes.path
+patch < patch_packets.path
 make -j #
+
+```
+```
 bash path-packets.sh <waveFunctionFile>
 
 ```
