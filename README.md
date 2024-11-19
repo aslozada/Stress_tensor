@@ -7,3 +7,6 @@ The bash script path-packets.sh uses Multiwfn version 3.8 (dev) Update [2024-Nov
 
 ```
 bash path-packets.sh <waveFunctionFile>
+
+```
+See: http://sobereva.com/wfnbbs/viewtopic.php?id=954 and http://sobereva.com/wfnbbs/viewtopic.php?id=1540
