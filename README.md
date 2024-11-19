@@ -6,6 +6,9 @@ How to get the path-packets?
 The bash script path-packets.sh uses Multiwfn version 3.8 (dev) Update [2024-Nov-13]. Released in http://sobereva.com/multiwfn/
 
 ```
+cd Multiwfn
+patch < patch_packtes.path
+make -j #
 bash path-packets.sh <waveFunctionFile>
 
 ```
