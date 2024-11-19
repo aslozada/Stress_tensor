@@ -1,0 +1,17 @@
+--- sub.f90	2024-11-11 08:54:38.000000000 -0300
++++ modified_sub.f90	2024-11-19 09:47:27.709977835 -0300
+@@ -2460,6 +2460,7 @@
+ 	call sort(eigval) !Sort eigenvalues from low to high
+ 	write(ifileid,"(a,f12.6)") " Stress tensor stiffness:",abs(eigval(1))/abs(eigval(3))
+ 	write(ifileid,"(a,f12.6)") " Stress tensor polarizability:",abs(eigval(3))/abs(eigval(1))
++        write(ifileid,"(a,f12.6)") " Stress tensor ellipticity:",(abs(eigval(1))/abs(eigval(2)))-1
+ end if
+ end subroutine
+ 
+@@ -5677,4 +5678,4 @@
+         write(*,"(' Tr(P_frz_B*S):',f12.6)") sum(PfrzB*Sbas)
+     end if
+ end if
+-end subroutine
+\ No newline at end of file
++end subroutine
