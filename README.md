@@ -18,7 +18,7 @@ bash path-packets.sh <waveFunctionFile>
 See: http://sobereva.com/wfnbbs/viewtopic.php?id=954 and http://sobereva.com/wfnbbs/viewtopic.php?id=1540
 
 ### Stress tensor stiffness
-Biphenyl C12H10 (B3LYP / DEF2-TZVP)
+Biphenyl C12H10 (B3LYP / 6-311G(2d,2p))
 
 ![Stiffness](https://github.com/user-attachments/assets/d3816cd5-ae50-4826-ab45-f46d577b21f8)
 
